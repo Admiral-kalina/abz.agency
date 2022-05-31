@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const YellowBtn = (props) => {
-    console.log(props)
+
     return (
         <Button {...props}>{props.children}</Button>
     );
